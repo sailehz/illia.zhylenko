@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 1000;
+}
+p{
+    font-family: 'poppins', sans-serif;
+    color: #72eb3a;
+    font-size: 1.5em;
+}
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1025%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(27%2c 29%2c 36%2c 1)'%3e%3c/rect%3e%3cpath d='M1007.75 0C1074.09 43.47 1046.79 176.9 1080 176.9C1112.4 176.9 1075.64 41.49 1138.97 0C1210.64 -46.96 1244.49 0 1350 0C1485 0 1485 0 1620 0C1751.63 0 1850.75 -63.38 1883.25 0C1919.98 71.62 1792.85 128.49 1758.46 270C1727.23 398.49 1791.12 418.35 1752 540C1721.89 633.62 1678.1 615.25 1620 700.54C1586.14 750.25 1607.14 764.87 1568.08 810C1472.14 920.85 1456.73 908.99 1350 1012.5C1317.53 1043.99 1330.39 1069.82 1289.68 1080C1195.39 1103.57 1184.84 1080 1080 1080C945 1080 945 1080 810 1080C675 1080 675 1080 540 1080C405 1080 405 1080 270 1080C135 1080 67.5 1147.5 0 1080C-67.5 1012.5 0 945 0 810C0 675 0 675 0 540C0 405 0 405 0 270C0 135 -67.5 67.5 0 0C67.5 -67.5 135 0 270 0C405 0 405 0 540 0C675 0 675 0 810 0C908.88 0 939.09 -44.98 1007.75 0' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M2001.52 270C1929.67 147.22 1856.37 70.82 1897.94 0C1935.61 -64.18 2095.46 -66.49 2160 0C2226.49 68.51 2160 135 2160 270C2160 358.9 2193.87 447.8 2160 447.8C2114.63 447.8 2060.7 371.12 2001.52 270' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M540 424.29C531.73 424.29 518.68 484.88 518.68 540C518.68 555.8 531.1 566.13 540 566.13C547.54 566.13 551.57 553.99 551.57 540C551.57 483.07 548.17 424.29 540 424.29' stroke='rgba(93%2c 157%2c 11%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1080 462.86C1062.05 462.86 1064.79 503.71 1064.79 540C1064.79 550 1070.14 555.43 1080 555.43C1111.5 555.43 1147.5 558.66 1147.5 540C1147.5 512.38 1103.4 462.86 1080 462.86' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1788.75 810C1814.17 755.72 1838.99 734.06 1890 734.06C1942.44 734.06 1938.5 779.89 1995.65 810C2073.5 851.02 2121.77 813.51 2160 876.32C2203.94 948.51 2218.05 1036.21 2160 1080C2083.05 1138.05 2025 1080 1890 1080C1809 1080 1746.69 1129.85 1728 1080C1696.07 994.85 1733.17 928.69 1788.75 810' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M540 120.79C486.95 120.79 468.2 187.01 428.82 270C368.73 396.62 314.69 418.15 341.05 540C370.28 675.08 456.93 783.87 540 783.87C610.4 783.87 624.13 667.62 648 540C672.18 410.68 668.7 396.52 636.1 270C614.7 186.92 590.59 120.79 540 120.79' stroke='rgba(93%2c 157%2c 11%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M912.68 0C983.83 99.23 988.99 131.9 1003.58 270C1017.51 401.9 945.49 418.95 969.72 540C983.7 609.88 1010.62 639.3 1080 651.86C1200.76 673.71 1243.16 566.74 1350 608.82C1443.93 645.81 1481.54 717.45 1481.54 810C1481.54 879.11 1412.64 868 1350 932.14C1280.8 1003 1297.5 1036.39 1217.87 1080C1162.5 1110.32 1148.93 1080 1080 1080C966.32 1080 900.31 1141.64 852.63 1080C795.88 1006.64 887.32 935.33 871.13 810C866.01 770.33 848.31 750 810 750C709.74 750 616.96 738.3 594 810C564.13 903.3 721.62 993.65 704.35 1080C694.62 1128.65 622.17 1080 540 1080C405 1080 405 1080 270 1080C135 1080 67.5 1147.5 0 1080C-67.5 1012.5 0 945 0 810C0 675 0 675 0 540C0 405 0 405 0 270C0 135 -67.5 67.5 0 0C67.5 -67.5 135 0 270 0C405 0 405 0 540 0C675 0 675 0 810 0C861.34 0 887.04 -35.77 912.68 0' stroke='rgba(93%2c 157%2c 11%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1170 270C1135.8 152.53 1156.03 90.78 1216.55 0C1246.03 -44.22 1283.28 0 1350 0C1485 0 1485 0 1620 0C1667.25 0 1714.5 -29.87 1714.5 0C1714.5 69.61 1668.67 100.2 1620 198.95C1602.14 235.2 1610.21 242.35 1581.43 270C1475.21 372.06 1459.82 458.37 1350 458.37C1254.11 458.37 1202.52 381.71 1170 270' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M2148.26 270C2118.41 136.95 2091.7 109.66 2096.47 0C2097.57 -25.34 2153.95 -25.71 2160 0C2185.71 109.29 2160 135 2160 270C2160 276.59 2162.51 283.17 2160 283.17C2156.64 283.17 2150.18 278.54 2148.26 270' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1863 1080C1863 1056.83 1859.59 1024.44 1890 1015.71C2008.09 981.81 2057.33 970.29 2160 994.74C2192.33 1002.44 2192.4 1069.77 2160 1080C2057.4 1112.4 2025 1080 1890 1080C1876.5 1080 1863 1088.97 1863 1080' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M120 270C61.31 164.74 37.44 79.88 81.82 0C112.44 -55.12 175.91 0 270 0C370.16 0 465.24 -51.86 470.32 0C478.47 83.14 378.18 132.33 296.47 270C278.02 301.08 296.99 337.5 270 337.5C208.76 337.5 155.4 333.49 120 270' stroke='rgba(93%2c 157%2c 11%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M750.51 270C753.4 135 731.21 112.5 756 0C760.96 -22.5 783 0 810 0C813.81 0 816.72 -3.62 817.61 0C849.84 131.38 861.81 133.45 876.23 270C890.33 403.45 898.38 412.81 874.65 540C865.26 590.31 842.47 625 810 625C777.36 625 752.89 590.49 744.43 540C723.15 412.99 747.62 405 750.51 270' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1320 270C1295.92 140.1 1281.7 111.95 1294.14 0C1296.7 -23.05 1322.07 0 1350 0C1433.8 0 1510.67 -48.46 1517.59 0C1529.95 86.54 1460.42 140.78 1388.57 270C1376.63 291.48 1368.3 301.4 1350 301.4C1334.02 301.4 1323.85 290.8 1320 270' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 342C30.61 342 114.23 450.12 114.23 540C114.23 600.32 34.25 642.41 0 642.41C-22.86 642.41 0 591.2 0 540C0 441 -26.51 342 0 342' stroke='rgba(93%2c 157%2c 11%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M243 810C243 793.71 257.2 778.24 270 778.24C281.95 778.24 292.5 793.79 292.5 810C292.5 827.67 282.01 846 270 846C257.26 846 243 827.59 243 810' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M998.49 810C1013.4 764.62 1031.74 757.74 1080 748.29C1207.5 723.33 1229.26 717.53 1350 741.18C1386.76 748.38 1395 778.34 1395 810C1395 833.65 1370.8 829.23 1350 851.79C1246.33 964.23 1257.09 986.15 1146.06 1080C1122.09 1100.26 1113.03 1080 1080 1080C1025.53 1080 982.72 1118.67 971.05 1080C941.97 983.67 958.92 930.47 998.49 810' stroke='rgba(54%2c 90%2c 8%2c 0.85)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 948.86C46.34 948.86 153 1042.73 153 1080C153 1108.3 41.19 1115.31 0 1080C-35.31 1049.74 -30.16 948.86 0 948.86' stroke='rgba(93%2c 157%2c 11%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1025'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-attachment: fixed;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #72eb3a;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: #72eb3a;
+}
+.container {
+    padding: 10px 10%;
+}
+.button1 {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    }
+    
+    .button1:hover {
+    letter-spacing: 3px;
+    background:#229ED9;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(4, 166, 255) 0px 7px 29px 0px;
+    padding-inline-start: 6ch;
+    padding-inline-end: 6ch;
+    }
+    
+    .button1:active {
+    letter-spacing: 3px;
+    background-color: #1d83b3;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(0, 72, 212) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms; 
+    }
+    
+    .button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    }
+    
+    .button:hover {
+    letter-spacing: 3px;
+    background: linear-gradient(200deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(190, 31, 164) 0px 7px 29px 0px;
+    padding-inline-start: 6ch;
+    padding-inline-end: 6ch;
+    }
+    
+    .button:active {
+    letter-spacing: 3px;
+    background: rgb(86,39,117);
+    background: linear-gradient(90deg, rgba(86,39,117,1) 0%, rgba(163,21,21,1) 50%, rgba(163,114,45,1) 100%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 24, 171) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+    }
+    .lefttext {
+        color: #fff;
+        font-family: 'poppins', sans-serif;
+        justify-content: flex-end;
+        padding: 10px;
+        display: flexbox;
+        text-align: right;
+    }
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.topbar {
+    position: fixed;
+}
+.span1 {
+    border-bottom: solid #72eb3a 1px; 
+    max-width: fit-content;
+    padding: 1ch;
+    font-family: 'poppins', sans-serif;
+}
+.notes{
+height: 300px; 
+width: 300px; 
+background-color: #72eb3a; 
+margin-top: 5em;
+display: flex;
+}
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin-top: 50px;
+    grid-gap: 10ch;
+}
+
+.services-list div {
+    background: #262626;
+    padding: 40px;
+    font-size: 15px;
+    line-height: 30 px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background: #365a08;
+    transform: translateY(-10px);
+}
